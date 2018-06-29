@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36345" started-at="2018-06-29T10:28:02Z" finished-at="2018-06-29T10:28:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36345" started-at="2018-06-29T10:28:02Z" finished-at="2018-06-29T10:28:38Z">
+      <class name="Linkup.TestCases">
+        <test-method status="PASS" signature="calllaunchBrowser()[pri:0, instance:Linkup.TestCases@29774679]" name="calllaunchBrowser" is-config="true" duration-ms="23387" started-at="2018-06-29T10:28:02Z" finished-at="2018-06-29T10:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calllaunchBrowser -->
+        <test-method status="PASS" signature="testLoginCorrectCredentials()[pri:1, instance:Linkup.TestCases@29774679]" name="testLoginCorrectCredentials" duration-ms="8040" started-at="2018-06-29T10:28:26Z" finished-at="2018-06-29T10:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCorrectCredentials -->
+        <test-method status="PASS" signature="testLoginWorngPswrd_WrongUsrname()[pri:2, instance:Linkup.TestCases@29774679]" name="testLoginWorngPswrd_WrongUsrname" duration-ms="676" started-at="2018-06-29T10:28:34Z" finished-at="2018-06-29T10:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWorngPswrd_WrongUsrname -->
+        <test-method status="PASS" signature="testLoginBlankPswrd_BlankUsrname()[pri:3, instance:Linkup.TestCases@29774679]" name="testLoginBlankPswrd_BlankUsrname" duration-ms="763" started-at="2018-06-29T10:28:34Z" finished-at="2018-06-29T10:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBlankPswrd_BlankUsrname -->
+        <test-method status="PASS" signature="testLoginWrongPswrd_CorrectUsrname()[pri:4, instance:Linkup.TestCases@29774679]" name="testLoginWrongPswrd_CorrectUsrname" duration-ms="1031" started-at="2018-06-29T10:28:35Z" finished-at="2018-06-29T10:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPswrd_CorrectUsrname -->
+        <test-method status="PASS" signature="testLoginCorrectPswrd_WrongUsrname()[pri:5, instance:Linkup.TestCases@29774679]" name="testLoginCorrectPswrd_WrongUsrname" duration-ms="636" started-at="2018-06-29T10:28:36Z" finished-at="2018-06-29T10:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCorrectPswrd_WrongUsrname -->
+        <test-method status="PASS" signature="testLoginBlankPswrd_CorrectUsrname()[pri:6, instance:Linkup.TestCases@29774679]" name="testLoginBlankPswrd_CorrectUsrname" duration-ms="829" started-at="2018-06-29T10:28:37Z" finished-at="2018-06-29T10:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBlankPswrd_CorrectUsrname -->
+        <test-method status="PASS" signature="testLoginCorrectPswrd_BlankUsrname()[pri:7, instance:Linkup.TestCases@29774679]" name="testLoginCorrectPswrd_BlankUsrname" duration-ms="728" started-at="2018-06-29T10:28:38Z" finished-at="2018-06-29T10:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCorrectPswrd_BlankUsrname -->
+        <test-method status="PASS" signature="callCloseBrowser()[pri:0, instance:Linkup.TestCases@29774679]" name="callCloseBrowser" is-config="true" duration-ms="116" started-at="2018-06-29T10:28:38Z" finished-at="2018-06-29T10:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callCloseBrowser -->
+      </class> <!-- Linkup.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

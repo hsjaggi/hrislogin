@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Linkup.TestCases">
+        <methods>
+          <include name="testLoginBlankPswrd_CorrectUsrname"/>
+          <include name="testLoginCorrectCredentials"/>
+          <include name="testLoginWorngPswrd_WrongUsrname"/>
+          <include name="callCloseBrowser"/>
+          <include name="testLoginCorrectPswrd_WrongUsrname"/>
+          <include name="testLoginBlankPswrd_BlankUsrname"/>
+          <include name="testLoginWrongPswrd_CorrectUsrname"/>
+          <include name="testLoginCorrectPswrd_BlankUsrname"/>
+          <include name="calllaunchBrowser"/>
+        </methods>
+      </class> <!-- Linkup.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
